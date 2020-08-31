@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none ;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* header section start here  */
+header{
+    margin: 30px 0;
+}
+.header-wrapper{
+    overflow: auto;
+}
+.logo{
+    float: left;
+}
+.logo a img{
+    width: 200px;
+}
+.btn{
+    float: right;
+}
+.btn li{
+    display: inline-block;
+}
+.btn1{
+    padding: 10px;
+    border: 1px solid transparent;
+    background: #1877f2;
+    color: white;
+    font: 900;
+    border-radius: 5px;
+}
+.btn a{
+    color: white;
+}
+.btn2{
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    background: #1877f2;
+    color: white;
+    font: 900;
+    border-radius: 5px;
+}
+.btn3{
+    margin-left: 50px;
+    border: 1px solid transparent;
+    background: transparent;
+    font: 600;
+}
+.btn3 a{
+    color: gray;
+}
+.btn4{
+    margin-left: 5px;
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    background: #1aa3d0;
+    color: white;
+    font: 600;
+}
+.btn5{
+    margin-left: 80px;
+    padding: 15px 20px;
+    border: 1px solid gray;
+    background: transparent;
+    font: 600;
+}
+.btn5 a{
+    color: rgb(44, 44, 44);
+
+}
+.btn6{
+    margin-left: 5px;
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    background: #1aa3d0;
+    color: white;
+    font: 600;
+}
+.btn3 a:hover{
+    color: #1aa3d0;
+}
+.btn4:hover{
+    background-color: #027F96;
+}
+.btn5:hover{
+    background-color: #cecece;
+}
+.btn6:hover{
+    background-color: #027F96;
+}
+/* header section end here  */
+
+/* menubar start here  */
+.menubar{
+    height: 60px;
+}
+.menubar ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 11px; 
+    line-height: 60px;
+}
+.menubar ul li a{
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+}
+.menubar ul li a:hover{
+    color: #1aa3d0;
+}
+/* menubar end here  */
+
+.box{
+    height: 80px;
+    background-color: #222222;
+}
+.box2{
+    height: 80px;
+    background-color: #222222;
+}
+.box2 ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+.box2 ul li a{
+    color: rgb(201, 201, 201);
+}
+/* sign up form start here  */
+form{
+    width: 800px;
+    margin: 50px auto;
+    border: 1px solid transparent;
+}
+form h1{
+    text-align: center;
+    color: #1aa3d0;
+    margin: 20px auto;
+    font-size: 40px;
+}
+form input{
+    width: 350px;
+    padding: 6px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    border: transparent;
+    border-bottom: 1px solid #dadada;
+    color: #a3a2a2;
+    font-size: 15px;
+}
+#terms{
+    width: 40px;
+    margin-left: 150px ;
+}
+form label{
+    color: #a3a2a2;
+}
+form label a{
+    color: #1877f2;
+}
+.sign-up-btn{
+    width: 400px;
+    height: 50px;
+    background-color: #1aa3d0;
+    border: none;
+    margin: 20px 210px ;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.sign-in{
+    color: #818181;
+    text-align: center;
+    font-size: 17px;
+}
+.sign-in a{
+    color: #1877f2;
+}
+/* sign up form end here  */
+
+/* support section start here  */
+.support-section{
+    height: 90px;
+    background-color: #eeeeee;
+}
+.support-content{
+    height: 90px;
+    background-color: #eeeeee;
+}
+.support-content ul li{
+    display: inline-block;
+    line-height: 90px;
+}
+.support-txt{
+    color: #776a6a;
+    font-size: 19px;
+
+}
+.support-btn{
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    background: #1aa3d0;
+    margin-left: 295px;
+}
+.support-btn a{
+    color: #eeeeee;
+    font-weight: 600;
+}
+.support-btn:hover{
+    background-color: #027f96;
+}
+/* support section end here  */
